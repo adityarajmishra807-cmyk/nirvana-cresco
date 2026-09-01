@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { background: #07191d; color: #f4f0e7; font-synthesis: none; }
+* { box-sizing: border-box; }
+html { background: #07191d; }
+body { margin: 0; min-width: 320px; overflow-x: hidden; }
+.sequence { height: 2000vh; position: relative; }
+.sequence-sticky { height: 100vh; position: sticky; top: 0; overflow: hidden; background: #07191d; }
+.sequence-canvas { display: block; width: 100vw; height: 100vh; }
+@media (prefers-reduced-motion: reduce) {
+  .sequence { height: 100vh; }
+}
